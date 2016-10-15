@@ -68,6 +68,10 @@
         <p class="header-subtitle">我珍惜我靈魂的清澈，我忠於我不愛的自己。</p>
         
         
+            <form>
+                <input type="text" class="st-default-search-input search" id="search" placeholder=" Search...">
+            </form>
+        
         
             <div id="switch-btn" class="switch-btn">
                 <div class="icon">
@@ -120,12 +124,6 @@
                                 <a class="fl github" target="_blank" href="#" title="github">github</a>
                             
                                 <a class="fl zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-                            
-                                <a class="fl weibo" target="_blank" href="#" title="weibo">weibo</a>
-                            
-                                <a class="fl google" target="_blank" href="#" title="google">google</a>
-                            
-                                <a class="fl twitter" target="_blank" href="#" title="twitter">twitter</a>
                             
                                 <a class="fl linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                             
@@ -190,12 +188,6 @@
                         <a class="github" target="_blank" href="#" title="github">github</a>
                     
                         <a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-                    
-                        <a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-                    
-                        <a class="google" target="_blank" href="#" title="google">google</a>
-                    
-                        <a class="twitter" target="_blank" href="#" title="twitter">twitter</a>
                     
                         <a class="linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                     
@@ -413,7 +405,7 @@
             <div class="visit">
                 
                     <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >海贼到访数: 
+                        <span id="site-visit" >到访数: 
                             <span id="busuanzi_value_site_uv"></span>
                         </span>
                     </span>
@@ -492,6 +484,23 @@
     });
 </script>
 
+
+    <script type="text/javascript">
+      window.onload = function(){
+        document.getElementById("search").onclick = function(){
+            console.log("search")
+            search();
+        }
+      }
+      function search(){
+        (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+        (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+        e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+        })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+        _st('install','A1Pz-LKMXbrzcFg2FWi6','2.0.0');
+      }
+    </script>
 
   </div>
 </body>
