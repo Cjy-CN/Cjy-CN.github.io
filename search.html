@@ -68,6 +68,10 @@
         <p class="header-subtitle">我珍惜我靈魂的清澈，我忠於我不愛的自己。</p>
         
         
+            <form>
+                <input type="text" class="st-default-search-input search" id="search" placeholder=" Search...">
+            </form>
+        
         
             <div id="switch-btn" class="switch-btn">
                 <div class="icon">
@@ -81,6 +85,11 @@
                         </div>
                         
                         
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
                     </div>
                     
                 </div>
@@ -90,6 +99,8 @@
                         <li>菜单</li>
                         <li>标签</li>
                         
+                        
+                        <li>关于我</li>
                         
                     </ul>
                 </div>
@@ -104,20 +115,20 @@
                         
                             <li><a href="/">首页</a></li>
                         
-                            <li><a href="/about">About Me</a></li>
-                        
                             <li><a href="/tags">标签导航</a></li>
+                        
+                            <li><a href="/about">About Me</a></li>
                         
                         </ul>
                     </nav>
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fl mail" target="_blank" href="#" title="mail">mail</a>
+                                <a class="fl mail" target="_blank" href="https://mail.qq.com" title="mail">mail</a>
                             
-                                <a class="fl github" target="_blank" href="#" title="github">github</a>
+                                <a class="fl github" target="_blank" href="https://github.com" title="github">github</a>
                             
-                                <a class="fl zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                                <a class="fl zhihu" target="_blank" href="https://www.zhihu.com/#signin" title="zhihu">zhihu</a>
                             
                                 <a class="fl linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                             
@@ -135,6 +146,12 @@
                 
                 
 
+                
+                
+                <section class="switch-part switch-part3">
+                
+                    <div id="js-aboutme">沉迷渣哇，无法自拔。</div>
+                </section>
                 
             </div>
         </div>
@@ -165,9 +182,9 @@
                 
                     <li><a href="/">首页</a></li>
                 
-                    <li><a href="/about">About Me</a></li>
-                
                     <li><a href="/tags">标签导航</a></li>
+                
+                    <li><a href="/about">About Me</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -175,11 +192,11 @@
             <nav class="header-nav">
                 <div class="social">
                     
-                        <a class="mail" target="_blank" href="#" title="mail">mail</a>
+                        <a class="mail" target="_blank" href="https://mail.qq.com" title="mail">mail</a>
                     
-                        <a class="github" target="_blank" href="#" title="github">github</a>
+                        <a class="github" target="_blank" href="https://github.com" title="github">github</a>
                     
-                        <a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                        <a class="zhihu" target="_blank" href="https://www.zhihu.com/#signin" title="zhihu">zhihu</a>
                     
                         <a class="linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                     
@@ -192,7 +209,7 @@
   
     <div class="article-meta">
       <a href="/search.html" class="article-date">
-      <time datetime="2016-10-15T02:54:37.000Z" itemprop="datePublished">2016-10-15</time>
+      <time datetime="2016-10-15T11:26:06.000Z" itemprop="datePublished">2016-10-15</time>
 </a>
     </div>
   
@@ -388,6 +405,23 @@
     });
 </script>
 
+
+    <script type="text/javascript">
+      window.onload = function(){
+        document.getElementById("search").onclick = function(){
+            console.log("search")
+            search();
+        }
+      }
+      function search(){
+        (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+        (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+        e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+        })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+        _st('install','A1Pz-LKMXbrzcFg2FWi6','2.0.0');
+      }
+    </script>
 
   </div>
 </body>
