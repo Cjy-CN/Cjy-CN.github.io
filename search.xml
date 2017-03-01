@@ -4,6 +4,15 @@
   
     
     <entry>
+      <title><![CDATA[机器学习基本概念]]></title>
+      <url>http://yoursite.com/2017/03/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+      <content type="html"><![CDATA[<p>概念定义在实例(instance)集合之上，这个集合表示为X。<br> 待学习的概念或目标函数成为目标概念（target concept), 记做c。<br>c(x)也可叫做y，称为标记<br>c(x)==True,称为 正例(positive example)<br>c(x)==False,称为 反例(negative example)<br>x: 每一个实例<br>X: 样例, 所有实例的集合<br>学习目标：f: X -> Y<br>训练集(training set/data)/训练样例（training examples): 用来进行训练，也就是产生模型或者算法的数据集<br>测试集(testing set/data)/测试样例 (testing examples)：用来专门进行测试已经学习好的模型或者算法的数据集<br>特征向量(features/feature vector)：属性的集合，通常用一个向量来表示，附属于一个实例</p>
+<p>分类 (classification): 目标标记c(x)为类别型数据(category)<br>回归(regression): 目标标记c(x)为连续性数值 (continuous numeric value)</p>
+<p>有监督学习(supervised learning)： 训练集有类别标记(class label)<br>无监督学习(unsupervised learning)： 无类别标记(class label)<br>半监督学习（semi-supervised learning)：有类别标记的训练集 + 无标记的训练集</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[程序员，在麻瓜的世界里挣扎]]></title>
       <url>http://yoursite.com/2016/10/14/%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E5%9C%A8%E9%BA%BB%E7%93%9C%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8C%E6%8C%A3%E6%89%8E/</url>
       <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p><img src="http://oet96uyen.bkt.clouddn.com/shenghuo_gather_982_1.jpg" alt="哈利波特"></p>
